@@ -19,8 +19,8 @@ data = {
         "Experiência para Criança",
         "Custo Total Geral"
     ],
-    "🇦🇷 Buenos Aires": [2, 2, 2, 2, 2, 4, 4, 2],
-    "🇨🇱 Santiago": [3, 3, 3, 3, 3, 3, 5, 4]
+    "🇦🇷 Buenos Aires": [2, 2, 2, 2, 2, 4, 2],
+    "🇨🇱 Santiago": [3, 3, 3, 3, 3, 5, 4]
 }
 
 df = pd.DataFrame(data)
@@ -79,7 +79,7 @@ st.markdown("---")
 # ======================
 # Custos estimados
 # ======================
-st.header("💰 Estimativa Total de Custos")
+st.header("💰 Estimativa de Custos Totais (5 pessoas)")
 
 costs = pd.DataFrame({
     "Item": ["Passagens", "Hospedagem (8 noites)", "Carro + Combustível", "Alimentação", "Passeios"],
