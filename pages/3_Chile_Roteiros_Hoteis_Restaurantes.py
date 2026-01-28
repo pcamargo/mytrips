@@ -35,4 +35,4 @@ st.markdown("""
 - **Mercado Central** — frutos do mar
 """)
 
-st.warning("⚠️ Passeios de neve envolvem estrada de montanha — atenção com idosos.")
+st.warning("⚠️ Passeios de neve envolvem estrada de montanha.")

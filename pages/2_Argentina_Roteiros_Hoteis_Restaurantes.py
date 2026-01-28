@@ -35,4 +35,4 @@ st.markdown("""
 - **Café Tortoni** — histórico
 """)
 
-st.info("💡 Buenos Aires é plana, fácil de dirigir e ideal para idosos.")
+st.info("💡 Buenos Aires é plana, fácil de dirigir.")
