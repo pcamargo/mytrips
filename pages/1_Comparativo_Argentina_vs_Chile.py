@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("❄️ Comparador de Viagem — Argentina x Chile (Inverno)")
+st.title("❄️ Comparador de Viagem — Argentina x Chile")
 st.subheader("📅 27 de junho a 05 de julho | 👨‍👩‍👧‍👦 4 adultos e 1 criança")
 
 st.markdown("---")
@@ -19,8 +19,8 @@ data = {
         "Experiência para Criança",
         "Custo Total Geral"
     ],
-    "🇦🇷 Argentina (Buenos Aires)": [2, 2, 2, 2, 2, 4, 4, 2],
-    "🇨🇱 Chile (Santiago)": [3, 3, 3, 3, 3, 3, 5, 4]
+    "🇦🇷 Buenos Aires": [2, 2, 2, 2, 2, 4, 4, 2],
+    "🇨🇱 Santiago": [3, 3, 3, 3, 3, 3, 5, 4]
 }
 
 df = pd.DataFrame(data)
@@ -71,7 +71,7 @@ st.markdown("---")
 # ======================
 # Tabela comparativa
 # ======================
-st.header("📊 Comparativo de Custos (Escala 1 = barato | 5 = caro)")
+st.header("📊 Comparativo de Custos")
 st.dataframe(df, use_container_width=True)
 
 st.markdown("---")
@@ -79,7 +79,7 @@ st.markdown("---")
 # ======================
 # Custos estimados
 # ======================
-st.header("💰 Estimativa de Custos Totais (5 pessoas)")
+st.header("💰 Estimativa Total de Custos")
 
 costs = pd.DataFrame({
     "Item": ["Passagens", "Hospedagem (8 noites)", "Carro + Combustível", "Alimentação", "Passeios"],
