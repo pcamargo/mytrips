@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("❄️ Comparador de Viagem — Argentina x Chile (Inverno)")
-st.subheader("📅 27 de junho a 05 de julho | 👨‍👩‍👧‍👦 2 adultos, 2 idosos e 1 criança")
+st.subheader("📅 27 de junho a 05 de julho | 👨‍👩‍👧‍👦 4 adultos e 1 criança")
 
 st.markdown("---")
 
@@ -16,7 +16,6 @@ data = {
         "Alimentação",
         "Carro Alugado",
         "Passeios",
-        "Conforto para Idosos",
         "Experiência para Criança",
         "Custo Total Geral"
     ],
